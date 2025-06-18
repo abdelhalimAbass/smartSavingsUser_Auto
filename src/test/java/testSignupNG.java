@@ -41,6 +41,11 @@ public class testSignupNG {
             System.out.println("No error popup displayed.");
         }
     }
+    @Test
+    public void testFillKYB(){
+        KYBTestclass a= new KYBTestclass();
+        a.KYBTestClass(driver);
+    }
 
 //    @AfterTest
 //    public void closeBrowser() {

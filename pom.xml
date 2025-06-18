@@ -25,11 +25,11 @@
            <artifactId>slf4j-simple</artifactId>
            <version>2.0.9</version> <!-- استخدم نفس version باقي SLF4J عندك -->
        </dependency>
-       <dependency>
-           <groupId>org.seleniumhq.selenium</groupId>
-           <artifactId>selenium-support</artifactId>
-           <version>4.31.0</version>
-       </dependency>
+<!--       <dependency>-->
+<!--           <groupId>org.seleniumhq.selenium</groupId>-->
+<!--           <artifactId>selenium-support</artifactId>-->
+<!--           <version>4.31.0</version>-->
+<!--       </dependency>-->
        <dependency>
            <groupId>junit</groupId>
            <artifactId>junit</artifactId>
@@ -41,6 +41,11 @@
            <artifactId>testng</artifactId>
            <version>7.10.1</version>
            <scope>test</scope>
+       </dependency>
+       <dependency>
+           <groupId>org.seleniumhq.selenium</groupId>
+           <artifactId>selenium-java</artifactId>
+           <version>4.20.0</version> <!-- Use the latest version -->
        </dependency>
    </dependencies> dependencies
 
