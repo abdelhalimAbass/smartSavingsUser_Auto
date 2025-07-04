@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="signIn">
+    <parameter name="mobileNumber" value="556677995"/>
+    <parameter name="pass" value="P@ssw0rd"/>
+    <test name="sign in">
+        <classes>
+            <class name="signIn_class"/>
+        </classes>
+
+    </test>
+</suite>
