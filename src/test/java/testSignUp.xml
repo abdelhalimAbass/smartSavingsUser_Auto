@@ -1,11 +1,12 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="testsignup">
-    <parameter name="phoneNumber" value="556677990"/>
+    <parameter name="phoneNumber" value="556677995"/>
     <parameter name="password" value="P@ssw0rd"/>
 
     <test name="regrisionsignuptesting">
         <classes>
             <class name="testSignupNG"/>
+            <class name="KYBTestclass"/>
         </classes>
     </test>
 </suite>
