@@ -42,7 +42,7 @@ public class testSignupNG {
         }
     }
     @Test
-    public void testFillKYB(){
+    public void testFillKYB() throws InterruptedException {
         KYBTestclass a= new KYBTestclass();
         a.KYBTestClass(driver);
     }

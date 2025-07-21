@@ -34,7 +34,7 @@ public class signIn_class {
              proceedButton.click();
         }
     @Test
-    public void testFillKYB(){
+    public void testFillKYB() throws InterruptedException {
         KYBTestclass a= new KYBTestclass();
         a.KYBTestClass(driver);
     }
